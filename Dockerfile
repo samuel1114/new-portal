@@ -1,4 +1,4 @@
-FROM payara-server-41:latest
+FROM docker-registry.default.svc:5000/ci/payara-server-41:latest
 
 USER root
 RUN ls -la /opt/payara41/glassfish/domains/domain1/autodeploy/
